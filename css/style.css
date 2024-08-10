@@ -1,0 +1,15 @@
+.avatar{
+    width:100%;
+}
+/* Remove red outline and box shadow when the input is focused */
+#searchUser:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #343a40; /* Add a dark border when focused */
+}
+
+/* Optional: Remove default styling for invalid input */
+#searchUser:invalid {
+    outline: none;
+    box-shadow: none;
+}
